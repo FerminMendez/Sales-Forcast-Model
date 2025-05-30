@@ -22,6 +22,22 @@ Historically, sales forecasting has been approached using autoregressive models 
 
 **LSTM networks** have emerged as a powerful alternative, particularly effective at learning long-term dependencies in time series data. Among LSTM variants, **ConvLSTM (Convolutional LSTM)** has shown promising results in capturing both spatial and temporal patterns, making it ideal for datasets involving multiple zones or regions.
 
+
+## Literature Results
+
+**Traditional Models (ARIMA)**  
+- Preprocessing: Differencing to address non-stationarity  
+- Result:  
+  - RMSE: **185.6**  
+  - MAPE: **13.5%**  
+- Limitation: Inability to capture nonlinear behavior in data
+
+**LSTM Models**  
+- Superior in identifying long-term dependencies  
+- Result:  
+  - RMSE: **124.5**  
+  - MAPE: **8.9%**
+
 ---
 
 ## About the Dataset
@@ -172,20 +188,7 @@ The prediction results show that the model is learning the trend but the magnitu
    - Test it with real sales data
 
    
-## Literature Results
 
-**Traditional Models (ARIMA)**  
-- Preprocessing: Differencing to address non-stationarity  
-- Result:  
-  - RMSE: **185.6**  
-  - MAPE: **13.5%**  
-- Limitation: Inability to capture nonlinear behavior in data
-
-**LSTM Models**  
-- Superior in identifying long-term dependencies  
-- Result:  
-  - RMSE: **124.5**  
-  - MAPE: **8.9%**
 
 ---
 
