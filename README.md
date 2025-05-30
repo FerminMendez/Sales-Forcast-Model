@@ -149,7 +149,7 @@ To move forward, we must address this inconsistency. Options include:
 I don't lose the focus on reaching a ConvLSTM that learns about products, groups and zones. But I know that the best way to reach that point is understanding and improving step by step. For this reason I'm doing the simplest case: One product, one zone. Using the ➡️ `Simple_Sales_Serie.csv`
 
 After checking if the data is complete we found 34 missing dates, but we decided to keep going.
-![alt text](/Images/missingValues_zone32_product28.png.png)
+![alt text](/Images/missingValues_zone32_product28.png)
 
 `lstm_v1.ipynb` contains details of the execution.
 
