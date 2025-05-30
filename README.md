@@ -188,6 +188,11 @@ The prediction results show that the model is learning the trend but the magnitu
 
 ---
 
+## Conclusion
+
+One of the most critical aspects of building complex models with big data is scaling the project step by step and ensuring careful data cleaning. In this case, I developed a vanilla LSTM model, which serves as a foundational step toward building more advanced architectures that can eventually match state-of-the-art performance in the literature. Large-scale projects with big data require time and patience, but each incremental improvement is essential for long-term success.
+
+
 ## References
 
 [1] F. M. Fukai, D. C. Cavalieri, and F. Z. de Castro, “Long short-term memory neural networks applied in demand forecast in the retail market,” Dec. 2024. DOI: [10.55592/cilamce.v6i06.10158](https://doi.org/10.55592/cilamce.v6i06.10158)
